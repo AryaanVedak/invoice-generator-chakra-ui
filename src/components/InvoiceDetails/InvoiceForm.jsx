@@ -187,9 +187,9 @@ const InvoiceForm = () => {
     </Card>
     <Card w="full" boxShadow='xl' borderRadius='xl' style={{
       marginTop: '20px',
-      // display: 'none'
+      display: 'none'
     }}>
-      <div className="wholePrintBody page-break" id="bill" style={{marginBottom: 0, display: 'none'}}>
+      <div className="wholePrintBody page-break" id="bill" style={{marginBottom: 0}}>
         <header style={{marginTop: 125}}>
           <div className="allBorder">
             <section className="leftSection ">
