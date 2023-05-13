@@ -189,7 +189,7 @@ const InvoiceForm = () => {
       marginTop: '20px',
       // display: 'none'
     }}>
-      <div className="wholePrintBody page-break" id="bill" style={{marginBottom: 0}}>
+      <div className="wholePrintBody page-break" id="bill" style={{marginBottom: 0, display: 'none'}}>
         <header style={{marginTop: 125}}>
           <div className="allBorder">
             <section className="leftSection ">
