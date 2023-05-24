@@ -18,7 +18,7 @@ export default function HomePage() {
           Generate Your Invoice With<br />
           <Text as='span' color={'green.400'}>Invoice Generator</Text>
         </Heading>
-        <div color={'gray.500'}>
+        <div color={'gray.500'} fontSize={{ base: 'xl', sm: '2xl', md: '4xl' }}>
           Generate Your invoice using Invoice Generator and save your self of the hassle of calculating the GST.
         </div>
         <Stack
